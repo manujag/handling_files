@@ -5,8 +5,6 @@ while i<30000:
     #print(a)
     list_to_write.append(a)
     i+=1
-#with open('test_file.txt','w') as file:
-#    file.writelines(list_to_write)
 
 with open('test_file.txt', 'w') as f:
     for item in list_to_write:
